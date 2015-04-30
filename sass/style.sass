@@ -1,0 +1,23 @@
+@import compass
+@import compass/reset
+@import jeet/index
+@import basic
+@import units
+
+.wrapper
+	height: 100%
+	position: relative
+	.info
+		+center(900px)
+		margin-top: 100px
+		.name
+			font-size: 3em
+		.ido
+			font-size: 1.5em
+			margin: 20px 0px
+			&:hover
+				font-weight: 800
+				text-decoration: underline
+				cursor: pointer
+		.idocontent
+			display: none
